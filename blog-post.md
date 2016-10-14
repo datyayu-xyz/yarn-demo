@@ -1,17 +1,16 @@
 # Mejor manejo de dependencias con Yarn
-
 [NPM](https://www.npmjs.com/) es el manejador de dependencias por defecto en el mundo de javascript. Otros manejadores, como bower, han intentado sobreponerse a la popularidad de npm pero ninguno lo ha logrado. Sin embargo, ahora esto podría cambiar, ya que gente de empresas grandes de tecnología como Google y Facebook se han unido para crear una nueva alternativa diseñada para mejorar donde npm había estado fallando: [Yarn](https://yarnpkg.com/), un nuevo manejador de paquetes para javascript.
 
 ---
 
-Si tienes algún problema siguiendo este post, o no tienes algún proyecto para probar yarn, puedes revisar el repo que preparé especialmente para este post (https://github.com/datyayu-xyz/yarn-demo).
+Si tienes algún problema siguiendo este post, o no tienes algún proyecto para probar yarn, puedes revisar [el repo que preparé especialmente para este post](https://github.com/datyayu-xyz/yarn-demo).
 
 ## ¿Qué es Yarn?
 Yarn es un cliente para usar npm creado por el equipo de Facebook en colaboración con gente de Google, Exponent y Tilde. El objetivo de esta herramienta es mejorar los puntos débiles que tiene actualmente npm.
 
 La parte importante a entender es que sólo es un cliente, por debajo sigue descargando los paquetes del registro de npm, así que todos las librerías de npm pueden ser instaladas con yarn.
 
-Ahora, si yarn usa npm, ¿para qué ocupas yarn? Para empezar, yarn te brinda una reducción drástica en el tiempo de instalación. Por ejemplo, para un proyecto con 44 dependencias (https://github.com/datyayu/weetrack/blob/master/package.json), los tiempos de instalación en mi maquina fueron:
+Ahora, si yarn usa npm, ¿para qué ocupas yarn? Para empezar, yarn te brinda una reducción drástica en el tiempo de instalación. Por ejemplo, para un [proyecto con 44 dependencias](https://github.com/datyayu/weetrack/blob/master/package.json), los tiempos de instalación en mi maquina fueron:
 
 <table style="margin: 0 auto;">
 <thead>
