@@ -3,7 +3,7 @@
 
 ---
 
-Si tienes algún problema siguiendo este post, o no tienes algún proyecto para probar yarn, puedes revisar [el repo que preparé especialmente para este post](https://github.com/datyayu-xyz/yarn-demo).
+Si tienes algún problema siguiendo este post, o no tienes algún proyecto para probar yarn, puedes revisar [el repo que preparé para este post](https://github.com/datyayu-xyz/yarn-demo).
 
 ## ¿Qué es Yarn?
 Yarn es un cliente para usar npm creado por el equipo de Facebook en colaboración con gente de Google, Exponent y Tilde. El objetivo de esta herramienta es mejorar los puntos débiles que tiene actualmente npm.
